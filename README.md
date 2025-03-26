@@ -1,12 +1,13 @@
-# XState Visualizer
+# XState (Legacy) Visualizer
 
-Visualize [XState](https://xstate.js.org) state machines and statecharts in real-time.
+Visualize [XState](https://stately.ai/docs/xstate) state machines and statecharts in real-time.
 
-[🔗 Use the Visualizer](https://stately.ai/viz).
+[🪄 Use the new Stately visual editor](https://state.new?source=viz-readme)
+[🔗 Use the legacy Visualizer](https://stately.ai/viz).
 
 ## Usage
 
-[Visit stately.ai/viz to use the Visualizer](https://stately.ai/viz).
+[Visit stately.ai/viz to use the Visualizer](https://stately.ai/viz?source=viz-readme).
 
 Alternatively, you can install it locally (see installation)
 
@@ -19,14 +20,12 @@ Alternatively, you can install it locally (see installation)
 - View list of events sent to the simulated machine
 - Access quick features via the command palette: <kbd>cmd</kbd>/<kbd>ctrl</kbd> + <kbd>k</kbd>
 - Inspect machines by setting `url: 'https://stately.ai/viz?inspect'` in `@xstate/inspect`
-- Save your machines in the [Stately Registry](https://stately.ai/registry)
-- _And many more upcoming features_
 
 ## Installation
 
 1. Clone this GitHub repo
 1. Run `yarn install`
-1. Run `npm start` and visit [localhost:3000](https://localhost:3000)
+1. Run `yarn start` and visit [localhost:3000/viz](http://localhost:3000/viz)
 
 ## Releases
 

@@ -18,13 +18,13 @@ describe('Saving', () => {
         data: sourceFileToBeCreated,
       },
     });
-    cy.interceptGraphQL({
+    cy.interceptAPI({
       getLoggedInUser: {
         id: 'id',
       },
       createSourceFile: {
         id: 'source-file-id',
-        system: {
+        project: {
           name: 'Source File',
           owner: {
             id: 'id',
@@ -50,14 +50,14 @@ describe('Saving', () => {
 
   it('Should allow you to save an existing file', () => {
     cy.setMockAuthToken();
-    cy.interceptGraphQL({
+    cy.interceptAPI({
       getLoggedInUser: {
         id: 'id',
       },
       getSourceFile: {
         id: 'source-file-id',
         text: '// New File',
-        system: {
+        project: {
           name: 'Source File',
           owner: {
             id: 'id',
@@ -66,7 +66,7 @@ describe('Saving', () => {
       },
       updateSourceFile: {
         id: 'source-file-id',
-        system: {
+        project: {
           name: 'Source File',
           owner: {
             id: 'id',

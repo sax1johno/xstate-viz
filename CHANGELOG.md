@@ -1,5 +1,79 @@
 # XState Visualizer
 
+## 0.10.0
+
+### Minor Changes
+
+- [#425](https://github.com/statelyai/xstate-viz/pull/425) [`c80b891`](https://github.com/statelyai/xstate-viz/commit/c80b8911fbdd89d41d422aece502b654e75129aa) Thanks [@laurakalbag](https://github.com/laurakalbag)! - Add a banner and welcome screen link introducing the Stately visual editor
+
+## 0.9.1
+
+### Patch Changes
+
+- [#422](https://github.com/statelyai/xstate-viz/pull/422) [`10858d2`](https://github.com/statelyai/xstate-viz/commit/10858d2c3efc7073b675582b892fdd8b735e11ef) Thanks [@davidkpiano](https://github.com/davidkpiano)! - Fixes issue where raise actions were causing visualizer to crash
+
+## 0.9.0
+
+### Minor Changes
+
+- [#414](https://github.com/statelyai/xstate-viz/pull/414) [`8a336e3`](https://github.com/statelyai/xstate-viz/commit/8a336e330bb13f04abd547c48e445d9c9c3c94fc) Thanks [@kevinmaes](https://github.com/kevinmaes)! - Analytics
+
+## 0.8.6
+
+### Patch Changes
+
+- [#408](https://github.com/statelyai/xstate-viz/pull/408) [`1894954`](https://github.com/statelyai/xstate-viz/commit/1894954c478f34e3b91b431d5de56d633655fe74) Thanks [@mellson](https://github.com/mellson)! - Remove Sentry.
+
+## 0.8.5
+
+### Patch Changes
+
+- [`60a35a2`](https://github.com/statelyai/xstate-viz/commit/60a35a2e3696a2434afc524180657e7b30e7aee8) Thanks [@mellson](https://github.com/mellson)! - Screenshots now have a better quality and are cropped to the machine.
+
+## 0.8.2
+
+### Patch Changes
+
+- [#387](https://github.com/statelyai/xstate-viz/pull/387) [`77b2a13`](https://github.com/statelyai/xstate-viz/commit/77b2a13a76da0dbd9b2c7003c1872daca90c5760) Thanks [@zgotsch](https://github.com/zgotsch)! - Add some additional heuristics to avoid layout failures
+
+## 0.8.1
+
+### Patch Changes
+
+- [#382](https://github.com/statelyai/xstate-viz/pull/382) [`a9019ed`](https://github.com/statelyai/xstate-viz/commit/a9019ed9ebdb5e962f96fe189b258f74e21eceef) Thanks [@mellson](https://github.com/mellson)! - The editor will now prefer imports from xstate core.
+
+## 0.8.0
+
+### Minor Changes
+
+- [#377](https://github.com/statelyai/xstate-viz/pull/377) [`9b731ba`](https://github.com/statelyai/xstate-viz/commit/9b731baf0acc3e62343cc6cca0a7e9c4ffee0e2c) Thanks [@farskid](https://github.com/farskid)! - Support `confirm`, `prompt` and `window.*` in the visualizer
+
+## 0.7.1
+
+### Patch Changes
+
+- [#373](https://github.com/statelyai/xstate-viz/pull/373) [`ecf0d23`](https://github.com/statelyai/xstate-viz/commit/ecf0d2384a5a05955eff5b7eea334d3f0ee887e6) Thanks [@davidkpiano](https://github.com/davidkpiano)! - Updated API to point to projects rather than systems
+
+## 0.7.0
+
+### Minor Changes
+
+- [#293](https://github.com/statelyai/xstate-viz/pull/293) [`67e24ae`](https://github.com/statelyai/xstate-viz/commit/67e24ae76aa253855c6bd866472f45c77be75367) Thanks [@jacksteamdev](https://github.com/jacksteamdev)! - You can now inspect via WebSocket. To do that you can add the WebSocket server url as a query parameter, for example `https://stately.ai/viz?inspect&server=ws://localhost:3000`
+
+### Patch Changes
+
+- [#343](https://github.com/statelyai/xstate-viz/pull/343) [`632f950`](https://github.com/statelyai/xstate-viz/commit/632f950c6d0d1989a263d2cb0f5cf0483950e8f2) Thanks [@Andarist](https://github.com/Andarist)! - Fixed panning/dragging interations (the ones that include pressing pointer down) in FireFox.
+
+## 0.6.0
+
+### Minor Changes
+
+- [#338](https://github.com/statelyai/xstate-viz/pull/338) [`196e44d`](https://github.com/statelyai/xstate-viz/commit/196e44d296a845cdd0f6dfa230fdad3089a77d21) Thanks [@riccardo-forina](https://github.com/riccardo-forina)! - You can now visualize descriptions added directly to state nodes and transitions
+
+### Patch Changes
+
+- [#336](https://github.com/statelyai/xstate-viz/pull/336) [`225757d`](https://github.com/statelyai/xstate-viz/commit/225757de7c9d65397a2d14c5397a1432373a7266) Thanks [@kmannislands](https://github.com/kmannislands)! - Remove unecessary feature policy claims from generated embed iframes
+
 ## 0.5.1
 
 ### Patch Changes
