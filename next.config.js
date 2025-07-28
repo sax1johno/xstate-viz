@@ -1,7 +1,7 @@
 const registryPublicUrl =
   process.env.NEXT_PUBLIC_REGISTRY_PUBLIC_URL ||
-  `https://dev.stately.ai/registry`;
-const landingPagePublicUrl = `https://landing-page-prod.stately.ai`;
+  `http://api.mcoc.local:3333/registry`;
+const landingPagePublicUrl = `http://api.mcoc.local:3333`;
 
 /** @type import('next').NextConfig */
 module.exports = {
